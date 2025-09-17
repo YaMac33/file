@@ -1,5 +1,5 @@
     [build]
-      publish = "public"          # Netlify に公開する静的ファイル（functions-only サイトにする場合は空でも可）
+      publish = ""          # Netlify に公開する静的ファイル（functions-only サイトにする場合は空でも可）
       functions = "netlify/functions"
 
     [[headers]]

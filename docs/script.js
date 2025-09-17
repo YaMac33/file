@@ -1,4 +1,4 @@
-    const FUNCTION_URL = 'https://YOUR-NETLIFY-SITE.netlify.app/.netlify/functions/upload'; // <-- Netlify の関数URLに置き換える
+    const FUNCTION_URL = 'https://sidenotefile.netlify.app/.netlify/functions/upload'; // <-- Netlify の関数URLに置き換える
 
     function fileToDataURL(file) {
       return new Promise((resolve, reject) => {
